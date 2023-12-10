@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
-//  KaitlinApp
+//  
+//  
 //
-//  Created by Nathan Graff on 11/30/23.
+//  Created
 //
 
 import SwiftUI
@@ -21,7 +21,7 @@ struct LoginView: View {
         GeometryReader { geometry in
             NavigationView {
                 if isLoggedIn {
-                    HomePage()
+                    MainScreen()
                         .navigationBarHidden(true)
                 } else {
                     ZStack {
